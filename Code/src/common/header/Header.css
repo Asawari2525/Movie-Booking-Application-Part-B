@@ -1,0 +1,24 @@
+.heading{
+    background-color: #222;
+    height:36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+}
+
+.rotate-image {
+    background-color: #ff7f7f;
+    height:35px;
+    animation: rotation 8s linear infinite;
+      
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
